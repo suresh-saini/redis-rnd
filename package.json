@@ -1,0 +1,13 @@
+{
+  "name": "redis-rnd",
+  "version": "1.0.0",
+  "description": "rnd project for redis commands",
+  "main": "rnd.js",
+  "author": "suresh saini",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^3.0.2",
+    "redis-rejson": "^1.0.0"
+  },
+  "type": "module"
+}
