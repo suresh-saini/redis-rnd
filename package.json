@@ -12,6 +12,6 @@
     "protocol-buffers": "^4.2.0",
     "redis": "^3.1.2",
     "redis-rejson": "^1.0.0",
-    "snappy": "^6.3.5"
+    "snappy": "^7.0.5"
   }
 }
