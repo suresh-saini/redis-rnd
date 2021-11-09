@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Contact {
+    repeated string contactNumbers=1;
+    repeated string homeContactNumbers=2;
+    repeated string officeContactNumbers=3;
+    string cui=4;
+    string name=5;
+    string email=6;
+    string nationality=7;
+}
