@@ -1,0 +1,89 @@
+{
+    "_id": "5eef3fb8aa74d03eb3a04ab0",
+    "contact": {
+        "contactNumbers": [
+            "6587253675"
+        ],
+        "homeContactNumbers": [],
+        "officeContactNumbers": [],
+        "cui": "",
+        "name": "Candice Carl",
+        "email": "Candice@yopmail.com",
+        "nationality": "Afghanistan"
+    },
+    "documents": {
+        "selected": [],
+        "approved": [],
+        "rejected": []
+    },
+    "createdAt": "2020-06-20T20:00:00.000Z",
+    "preApproved": false,
+    "reassignCount": 1,
+    "pastHandlerIds": [
+        "5e7ddb01da698b587253bb3c"
+    ],
+    "archived": false,
+    "amount": 2000,
+    "isExternalKpi": false,
+    "isReferralLead": false,
+    "workflowId": "5eef3fb8aa74d03eb3a04aaf",
+    "brn": "0007f8",
+    "source": {
+        "_id": "5eef3fb8aa74d03eb3a04ab1",
+        "device": "web",
+        "actionBy": "5c46baa6a66986e9aa2c77b1",
+        "creation": "excelUpload"
+    },
+    "expiryTime": "2020-06-30T20:00:00.000Z",
+    "updatedAt": "2020-07-14T13:03:14.512Z",
+    "generatorId": "5c46baa6a66986e9aa2c77b1",
+    "leadStatusId": "CREATED",
+    "leadStatus": "Lead generation",
+    "leadStage": "CREATED",
+    "productId": "5e8479faf5e7f95e9c44c5d0",
+    "subProduct": "bonds",
+    "leadType": "managerAssigned",
+    "leadSubType": "managerAssigned",
+    "followers": [],
+    "campaignName": "",
+    "campaignCode": "",
+    "leadSource": "5e7391d2f5e7f95e9c94fe4e",
+    "notes": [
+        {
+            "updatedAt": "2020-06-21T11:08:40.846Z",
+            "notes": "Added notes 4"
+        }   
+    ],
+    "userId": "5b4c424d669a91104ad6eb8c",
+    "histories": [
+        {
+            "_id": "5f0d561d3e671826a8707788",
+            "historyType": "reassigned",
+            "timestamp": "2020-07-14T06:52:13.661Z",
+            "source": {
+                "_id": "5f0d561d3e671826a8707789",
+                "device": "ios",
+                "creation": "form",
+                "actionBy": "5e7ddaffda698b587253bb2f"
+            },
+            "leadStatus": "Lead generation",
+            "notes": "Lead reassigned to Evelyn Poh Yah Yen (d0110s336 from Vincent Hoo Wei Sheng (d0110s366 by Flora Choa  (d0110s393",
+            "update": {
+                "oldValue": "5e7ddb01da698b587253bb3c",
+                "newValue": "5b4c424d669a91104ad6eb8c",
+                "key": "userId"
+            }
+        }
+    ],
+    "reassignHistories": [
+        {
+            "timestamp": "2020-07-14T06:52:13.660Z",
+            "_id": "5f0d561d3e671826a870778a",
+            "from": "5e7ddb01da698b587253bb3c",
+            "to": "5b4c424d669a91104ad6eb8c"
+        }
+    ],
+    "__v": 0,
+    "isAssigned": true,
+    "followUpDate": "2020-07-14T13:02:47.613Z"
+}

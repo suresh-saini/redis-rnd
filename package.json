@@ -6,8 +6,12 @@
   "author": "suresh saini",
   "license": "MIT",
   "dependencies": {
-    "redis": "^3.0.2",
-    "redis-rejson": "^1.0.0"
-  },
-  "type": "module"
+    "google-proto-files": "^2.4.0",
+    "messagepack": "^1.1.12",
+    "protobufjs": "^6.10.2",
+    "protocol-buffers": "^4.2.0",
+    "redis": "^3.1.2",
+    "redis-rejson": "^1.0.0",
+    "snappy": "^6.3.5"
+  }
 }

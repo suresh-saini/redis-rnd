@@ -1,0 +1,90 @@
+syntax = "proto3";
+
+message Lead {
+    string _id=1;
+    string cui=2;
+    Contact contact=3;
+    Document documents=4;
+    string createdAt=5;
+    bool preApproved=6;
+    uint32 reassignCount=7;
+    repeated string pastHandlerIds=8;
+    uint32 amount=9;
+    bool archived=10;
+    bool isExternalKpi=11;
+    bool isReferralLead=12;
+    string workflowId=13;
+    string brn=14;
+    Source source=15;
+    string expiryTime=16;
+    string updatedAt=17;
+    string generatorId=18;
+    string leadStatusId=19;
+    string leadStatus=20;
+    string leadStage=21;
+    string productId=22;
+    string subProduct=23;
+    string leadType=24;
+    string leadSubType=25;
+    repeated Follower followers=26;
+    string campaignName=27;
+    string campaignCode=28;
+    string leadSource=29;
+    repeated Note notes=30;
+    repeated History histories=31;
+    repeated ReassignHistory reassignHistories=32;
+    uint32 __v=33;
+    bool isAssigned=34;
+    string followUpDate=35;
+    string userId=36;
+}
+message Contact {
+    repeated string contactNumbers=1;
+    repeated string homeContactNumbers=2;
+    repeated string officeContactNumbers=3;
+    string cui=4;
+    string name=5;
+    string email=6;
+    string nationality=7;
+}
+message Document {
+    repeated string selected=1;
+    repeated string approved=2;
+    repeated string rejected=3;
+}
+message Source {
+    string _id=1;
+    string device=2;
+    string actionBy=3;
+    string creation=4;
+}
+
+message Follower {
+    string _id=1;
+}
+
+message Note {
+    string updatedAt=1;
+    string notes=2;
+}
+message History {
+    string _id=1;
+    string historyType=2;
+    string timestamp=3;
+    Source source=4;
+    string leadStatus=5;
+    string notes=6;
+    Update update=7;
+}
+message Update {
+    string key=1;
+    string oldValue=2;
+    string newValue=3;
+}
+
+message ReassignHistory {
+    string _id=1;
+    string timestamp=2;
+    string from=3;
+    string to=4;
+}
